@@ -1,3 +1,55 @@
+## Introduction
+
+This project is a simple React API for Recipes, which backend is provided by https://spoonacular.com/food-api.
+
+## Setup
+
+In order to start the project successfully, you will need to set up the backend project.
+
+You can find all the instructions in the link below:
+
+https://spoonacular.com/food-api/docs
+
+
+### Clone the project
+
+```bash
+git clone https://github.com/dimitar-daskalov/Recipe-App.git
+```
+
+### Install the Dependencies
+
+From the project folder, install the dependencies:
+
+    npm i
+
+### Set the .env file
+
+In order to run the project correctly, you will need the API_URL and the API_KEY provided by Spoonacular.
+
+Create an .env file in the root directory of the project and copy the data from the .env.example file.
+
+```bash
+REACT_APP_API_URL= Spoonacular URL
+REACT_APP_API_KEY= Your Spoonacular API Key
+```
+
+
+### Start the Server
+
+    npm start
+
+This will launch the app in development mode on port 3000. If that port is busy, you can set a different point in utils/config.json.
+
+Open up your browser and head over to:
+
+http://localhost:3000/
+
+You should see the Recipes App homepage. That confirms that you have set up everything successfully.
+
+
+---------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
