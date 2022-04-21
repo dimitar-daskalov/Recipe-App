@@ -39,7 +39,7 @@ REACT_APP_API_KEY= Your Spoonacular API Key
 
     npm start
 
-This will launch the app in development mode on port 3000. If that port is busy, you can set a different point in utils/config.json.
+This will launch the app in development mode on port 3000. If that port is busy, you can set a different port in utils/config.json.
 
 Open up your browser and head over to:
 
